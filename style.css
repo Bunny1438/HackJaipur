@@ -1,0 +1,339 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #65869f;
+    background: url("https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=1352&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100%;
+    position: relative;
+}
+
+.hide-display {
+    display: none;
+}
+
+h2 {
+    color: #65869f;
+}
+
+h1,
+h2,
+legend {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 32px;
+}
+
+section h1,
+fieldset legend {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #7e9a9a;
+}
+
+a:visited {
+    color: #7e9a9a;
+}
+
+button {
+    margin: 5px;
+    background: white;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #b1cbbb;
+}
+
+div {
+    padding: 10px;
+}
+
+section {
+    margin: 30px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.9);
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.section-header {
+    color: #b1cbbb;
+    margin: 10px;
+}
+
+.start-page {
+    text-align: center;
+}
+
+.start-page p {
+    color: #898281;
+    font-size: 16px;
+}
+
+.error {
+    color: red;
+}
+
+
+/*****HEADER*****/
+
+header h1 {
+    font-size: 36px;
+    color: #65869f;
+    margin-bottom: 1px;
+}
+
+header {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 5px;
+    background: white;
+    box-shadow: 0 0 10px black;
+}
+
+header p {
+    margin: 0;
+    padding: 10px;
+}
+
+header div.header-container {
+    display: inline-block;
+}
+
+
+/*****FORMS*****/
+
+form fieldset {
+    border: none;
+    margin: 20px;
+}
+
+fieldset label {
+    text-align: left;
+}
+
+label {
+    margin: 20px;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+input,
+select,
+textarea {
+    margin: 20px;
+    padding: 10px;
+    width: 20%
+}
+
+textarea {
+    width: 600px;
+    height: 300px;
+}
+
+fieldset {
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.start-page p {
+    margin-bottom: 50px;
+}
+
+
+/*****NAVIGATION *****/
+
+div.navigation-buttons {
+    margin: 0 auto;
+}
+
+.nav-button {
+    padding: 7px;
+    color: white;
+    border-bottom: 1px solid rgba(177, 203, 187, 1)
+}
+
+navigation ul li {
+    display: inline;
+    font-size: 16px;
+}
+
+.dropdown-content li {
+    vertical-align: top;
+}
+
+
+/* Dropdown Button */
+
+.dropbtn {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(101, 134, 159);
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn p {
+    display: inline;
+    vertical-align: top;
+}
+
+
+/* Dropdown button on hover & focus */
+
+.dropbtn:hover,
+.dropbtn:focus {
+    background-color: white;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+/* Links inside the dropdown */
+
+.dropdown-content li {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content li:hover {
+    color: #65869f;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+}
+
+
+/* Change color of dropdown links on hover */
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+
+.show {
+    display: block;
+}
+
+
+/*****ENTRIES*****/
+
+.reflection-info {
+    font-weight: 500;
+    display: inline;
+    font-size: 20px;
+    padding: 10px;
+    color: #65869f;
+}
+
+.reflection-text {
+    display: inline;
+}
+
+#entries {
+    border: 1px solid rgb(177, 203, 187);
+    background: rgba(177, 203, 187, 0.5);
+    border-radius: 15px 0 15px 0;
+    margin: 15px;
+    padding: 20px;
+}
+
+#entries button,
+.reflections-button {
+    background: white;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #b1cbbb;
+    text-align: center;
+}
+
+.current-reflection h2 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+#truncate {
+    display: inline-block;
+    width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0;
+}
+
+.current-reflection h2,
+.current-reflection p {
+    display: inline;
+}
+
+
+/*****FOOTER****/
+
+footer {
+    background-color: white;
+    height: 175px;
+    padding: 20px;
+    margin-top: 50px;
+    box-shadow: 0 0 10px black;
+    text-align: center;
+}
+
+
+/*****RESPONSIVE*****/
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    max-width: 1000px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 640px) {
+    .col-3 {
+        width: 30%;
+        display: inline-block;
+        vertical-align: text-top;
+    }
+}
