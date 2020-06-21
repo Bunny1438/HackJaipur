@@ -1,0 +1,21 @@
+{
+    "text": "hello world",
+    "mood": "happy",
+    "date": "09/17/2017",
+    "location": "home"
+} {
+    "text": "new entry submission hello",
+    "mood": "sad",
+    "date": "01/26/2017",
+    "location": "work"
+} {
+    "text": "reflection reflecting new reflection is writtten here",
+    "mood": "angry",
+    "date": "04/08/2017",
+    "location": "school"
+} {
+    "text": "sample text sample reflection sample sample",
+    "mood": "calm",
+    "date": "07/07/2017",
+    "location": "work"
+}
